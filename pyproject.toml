@@ -1,0 +1,12 @@
+[project]
+name = "sms-spam-detection"
+version = "0.1.0"
+description = "An SMS Spam Detection web application using TF-IDF and Multinomial Naive Bayes."
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+    "nltk>=3.10.3",
+    "scikit-learn>=1.9.1",
+    "streamlit>=1.64.0",
+]
