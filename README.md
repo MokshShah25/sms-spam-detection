@@ -6,13 +6,17 @@
 [![NLTK](https://img.shields.io/badge/NLTK-3.10%2B-339933.svg)](https://www.nltk.org/)
 [![Package Manager](https://img.shields.io/badge/Package%20Manager-uv-blueviolet.svg)](https://github.com/astral-sh/uv)
 [![Status](https://img.shields.io/badge/Status-Production%20Ready-success.svg)]()
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Streamlit%20Cloud-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://sms-spam-detection-7.streamlit.app/)
 
 An end-to-end Natural Language Processing (NLP) and Machine Learning application designed to classify SMS messages into **Spam** or **Ham (Not Spam)** in real time. The solution integrates text preprocessing, TF-IDF feature extraction, a Multinomial Naive Bayes classifier, and an interactive web interface powered by Streamlit.
+
+> 🚀 **Live Demo**: Experience the web application live at **[https://sms-spam-detection-7.streamlit.app/](https://sms-spam-detection-7.streamlit.app/)**
 
 ---
 
 ## 📑 Table of Contents
 
+- [Live Demo](#-live-demo)
 - [Overview](#-overview)
 - [Key Features](#-key-features)
 - [System Architecture & Pipeline](#-system-architecture--pipeline)
@@ -27,6 +31,16 @@ An end-to-end Natural Language Processing (NLP) and Machine Learning application
 - [Sample Test Cases](#-sample-test-cases)
 - [Future Enhancements](#-future-enhancements)
 - [License](#-license)
+
+---
+
+## 🔗 Live Demo
+
+The application is deployed and publicly accessible online via Streamlit Community Cloud:
+
+🌐 **[https://sms-spam-detection-7.streamlit.app/](https://sms-spam-detection-7.streamlit.app/)**
+
+Test sample SMS messages directly from your browser with sub-second prediction response times—no local installation required!
 
 ---
 
@@ -214,9 +228,14 @@ Network URL:  http://<your-network-ip>:8501
 
 ## 🌐 Deployment
 
-### Deploying to Streamlit Community Cloud
+### Production Deployment
 
-This project is pre-configured for one-click deployment on [Streamlit Community Cloud](https://streamlit.io/cloud):
+The project is currently hosted live at:
+🔗 **[https://sms-spam-detection-7.streamlit.app/](https://sms-spam-detection-7.streamlit.app/)**
+
+### Deploying Your Own Instance to Streamlit Community Cloud
+
+This project is pre-configured for seamless one-click deployment on [Streamlit Community Cloud](https://streamlit.io/cloud):
 
 1. Push this repository to **GitHub**.
 2. Visit [share.streamlit.io](https://share.streamlit.io) and sign in.
